@@ -1,0 +1,4 @@
+1. Initialize Node.js project (npm init -y)
+2. Install dependencies: npm install express mongoose dotenv cors nodemon body-parser
+3. create mongobd : user and pass: sunitsen50 /  aheyxIKL6mb57SDe
+connection string: mongodb+srv://sunitsen50:<db_password>@cluster0.djmeq3g.mongodb.net/
