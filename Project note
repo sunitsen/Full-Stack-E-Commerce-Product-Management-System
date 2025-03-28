@@ -31,9 +31,9 @@ Operations and Endpoints:
 
     User Operations:
 
-        POST /register: Register a new user by providing email and password. The password is hashed before saving to the database.
+        POST /user/register: Register a new user by providing email and password. The password is hashed before saving to the database.
 
-        POST /login: Log in the user by verifying the provided email and password. If valid, a JWT token is generated and returned for authentication.
+        POST /user/login: Log in the user by verifying the provided email and password. If valid, a JWT token is generated and returned for authentication.
 
     Product Operations (CRUD):
 
@@ -41,11 +41,11 @@ Operations and Endpoints:
 
         POST /products: Add a new product to the database with name, price, category, stock, and description.
 
-        GET /products/:id: Fetch a single product by its ID.
+        GET /user/products/:id: Fetch a single product by its ID.
 
-        PUT /products/:id: Update a product's details using its ID.
+        PUT /user/products/:id: Update a product's details using its ID.
 
-        DELETE /products/:id: Delete a product from the database using its ID.
+        DELETE /user/products/:id: Delete a product from the database using its ID.
 
 Secure Routes and Authentication:
 

@@ -1,0 +1,22 @@
+Project Setup Checklist:
+
+    Clone the Repository:
+
+    Clone the repo using git clone <repo-url>
+
+Install Dependencies:
+
+    Run npm install in the project directory to install all required packages.
+
+Set Up .env File:
+
+    Create a .env file in the root directory with the following entries:
+
+        MONGO_URI=<your-mongo-db-connection-url>
+
+        SECRET_KEY=<your-jwt-secret-key>
+
+Start the Server:
+
+    Run npm start to start the server locally.
+
